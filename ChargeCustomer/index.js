@@ -1,7 +1,7 @@
-module.exports = function (context, req) {
+module.exports = function (context, data) {
      context.log('Webhook was triggered!');
 
-    if(req["card"] != null)
+    if(data["card"] != null)
     {
     //Charge the customer
 
